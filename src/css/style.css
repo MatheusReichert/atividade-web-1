@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("/src/assets/images/banner.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px rgba(0, 0, 0, 0.5) solid;
+  flex-wrap: nowrap;
+  flex-basis: 30;
+
+}
+
+nav a{
+  color: #2196f3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  transform: scale(1.5);
+  transition: 1s;
+
+}
+
+header section{
+height: 100%;  
+display: flex;
+}
+
+
+.menu-left{
+  display: flex;
+  flex-basis: 30%;
+  padding: 0px 20px;
+  
+}
+
+.menu-right{
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+}
+
+
+.banner {
+  display: flex;
+flex-direction: column;
+  font-size: xxx-large;
+  align-items: center;
+  flex-basis: 100%;
+  color: #2196f3;
+  text-shadow: 3px 3px 5px black;
+}
+
+
+.banner img {
+  height: 400px;
+}
+
+.circles{
+  border: dashed black 2px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+min-height: 400px;
+align-items: center;
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.circle:hover{
+  filter: brightness(50%);
+}
+
+.circle{
+  border: solid white 1px;
+  box-shadow: 3px 3px 30px white;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.pink{
+  background-color: blueviolet;
+}
+
+.orange {
+  background-color: orangered;
+}
+.teal {
+  background-color: deepskyblue;
+}
+
+.lorem {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 5% 5%;
+  background: url("/src/assets/images/rengoku.png");
+  background-size: cover;
+}
+
+.lorem article p {
+  border: solid black 2px;
+  background: #757f9a8e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7dde8a9, #757f9ac2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7dde8ce, #757f9aaf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+  text-shadow: rgb(0, 46, 83) 1px 1px 5px;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.b{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.a{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.zenitsu-container{
+  display: flex;
+  justify-content: center;
+  background-color: #f5af19;
+}
+
+.zenitsu{
+  width:100% ;
+}
+
+.zenitsu:hover{
+  align-self: center;
+  justify-self: center;
+  transform: scale(0.7);
+  transition: 2s;
+  border: rgb(107, 107, 28) 100px solid;
+}
+
+footer{
+  display: flex;
+  place-content: center;
+  height: 100px;
+  background-color: black;
+  color: #2196f3;
+}
